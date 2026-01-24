@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import Contract
 
-# Register your models here.
+# Contract model admin panel‑এ register
+admin.site.register(Contract)

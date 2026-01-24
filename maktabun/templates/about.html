@@ -1,3 +1,6 @@
+{% load static %}
+
+
 <!doctype html>
 <html lang="en" dir="ltr">
   <head>
@@ -29,7 +32,7 @@
           <a class="nav-link active" aria-current="page" href="/about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/contract">Contract</a>
+          <a class="nav-link" aria-current="page" href="/contract">Contact</a>
         </li>
       </ul>
 
@@ -50,7 +53,49 @@
 
 <p>Maktabun is built to support learners in their daily academic journey. Whether a student needs to revisit class lessons, solve problems, or practice new skills, the app provides structured and easy-to-understand content. Its clean interface helps students focus, making learning distraction-free and enjoyable.</p>
 
+{% load static %}
 
+<h3 class="text-center">Maktans</h3>
+<div class="container">
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <img src="{% static 'images/11.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Shahed Ahmed</h5>
+          <p class="card-text">CEO & CTO of Maktabun mobile app.</p>
+          <a href="#" class="btn btn-primary">Details</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <img src="{% static 'images/13.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mehedi Hasan</h5>
+          <p class="card-text">Junior developer of Maktabun wep app.</p>
+          <a href="#" class="btn btn-primary">Details</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <img src="{% static 'images/12.jpeg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ahmed Shahed</h5>
+          <p class="card-text">Islamic studies & Arabic language teacher.</p>
+          <a href="#" class="btn btn-success">Details</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<br><br><br><br><br><br><br><br>
 
 
 <br><br><br><br><br><br><br><br>

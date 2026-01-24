@@ -1,3 +1,5 @@
+{% load static %}
+
 <!doctype html>
 <html lang="en" dir="ltr">
   <head>
@@ -29,7 +31,7 @@
           <a class="nav-link" aria-current="page" href="/about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/contract">Contract</a>
+          <a class="nav-link" aria-current="page" href="/contract">Contact</a>
         </li>
       </ul>
 
@@ -40,7 +42,87 @@
     </div>
   </div>
 </nav>
-<h2>Read our books.</h2>
+<br>
+
+<h2 class="text-center">Read our books.</h2>
+
+<div class="container mt-4">
+  <div class="row g-4">
+
+    <!-- Book 1 -->
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="card h-100 d-flex flex-column">
+        <img src="{% static 'images/14.jpg' %}" class="card-img-top" alt="Book cover" style="height: 350px; object-fit: cover;">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Modern Architecture</h5>
+          <h6 class="card-text">Enrico Fermi / 10 BDT</h6>
+          <a href="#" class="btn btn-primary mt-auto">Read</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Book 2 -->
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="card h-100 d-flex flex-column">
+        <img src="{% static 'images/15.jpeg' %}" class="card-img-top" alt="Book cover" style="height: 350px; object-fit: cover;">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Gitanjali</h5>
+          <h6 class="card-text">R.Tagore / 7 BDT</h6>
+          <a href="#" class="btn btn-primary mt-auto">Read</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Book 3 -->
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="card h-100 d-flex flex-column">
+        <img src="{% static 'images/16.jpeg' %}" class="card-img-top" alt="Book cover" style="height: 350px; object-fit: cover;">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Silas Marner</h5>
+          <h6 class="card-text">George Eliot / 7 BDT</h6>
+          <a href="#" class="btn btn-primary mt-auto">Read</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Book 4 -->
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="card h-100 d-flex flex-column">
+        <img src="{% static 'images/17.jpg' %}" class="card-img-top" alt="Book cover" style="height: 350px; object-fit: cover;">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Arabic Course</h5>
+          <p class="card-text">A.Rahman</p>
+          <a href="#" class="btn btn-success mt-auto">Free</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Book 5 -->
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="card h-100 d-flex flex-column">
+        <img src="{% static 'images/18.jpeg' %}" class="card-img-top" alt="Book cover" style="height: 350px; object-fit: cover;">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Arabic Reader</h5>
+          <h6 class="card-text">A.Rahman / 15 BDT</h6>
+          <a href="#" class="btn btn-primary mt-auto">Read</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Book 6 -->
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="card h-100 d-flex flex-column">
+        <img src="{% static 'images/19.jpg' %}" class="card-img-top" alt="Book cover" style="height: 350px; object-fit: cover;">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Pather Panchali</h5>
+          <p class="card-text">B.Bandapaddhay / 10 BDT</p>
+          <a href="#" class="btn btn-primary mt-auto">Read</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 
 <br><br><br><br><br><br><br><br>
